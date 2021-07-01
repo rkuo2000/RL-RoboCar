@@ -21,4 +21,4 @@ RoboCar Simulation for Reinforcement Learning
 - **Blog:** [reinforcement-learning-in-python-to-teach-an-rc-car-to-avoid-obstacles](https://blog.coast.ai/reinforcement-learning-in-python-to-teach-an-rc-car-to-avoid-obstacles-part-3-a1d063ac962f)
 - **Code:** [reinforcement-learning-car](https://github.com/harvitronix/reinforcement-learning-car)
 - **Others:**
- - for video games: https://github.com/asrivat1/DeepLearningVideoGames
+  - for video games: https://github.com/asrivat1/DeepLearningVideoGames
