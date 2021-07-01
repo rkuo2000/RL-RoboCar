@@ -18,6 +18,6 @@ RoboCar Simulation for Reinforcement Learning
 `python3 plotting.py`
 
 ## Credits
-- [Blog](https://blog.coast.ai/reinforcement-learning-in-python-to-teach-an-rc-car-to-avoid-obstacles-part-3-a1d063ac962f)
-- [Github](https://github.com/harvitronix/reinforcement-learning-car)
+- **Blog:** [reinforcement-learning-in-python-to-teach-an-rc-car-to-avoid-obstacles](https://blog.coast.ai/reinforcement-learning-in-python-to-teach-an-rc-car-to-avoid-obstacles-part-3-a1d063ac962f)
+- **Github: ** [reinforcement-learning-car](https://github.com/harvitronix/reinforcement-learning-car)
 - deep learning project for video games: https://github.com/asrivat1/DeepLearningVideoGames
