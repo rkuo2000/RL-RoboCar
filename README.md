@@ -1,7 +1,7 @@
 # RL-RoboCar
 RoboCar Simulation for Reinforcement Learning
 (carmunk.py has been modified and fixed for using pymunk 6.0.0)
-[![Watch the video](https://user-images.githubusercontent.com/3485732/133130003-41493420-95e6-4f60-9b56-13fd6213898a.png)(https://youtu.be/H37TVKBNc5s)]
+[![Watch the video](https://user-images.githubusercontent.com/3485732/133130003-41493420-95e6-4f60-9b56-13fd6213898a.png)](https://youtu.be/H37TVKBNc5s)
 
 ## Install Pygame & Pymunk
 
