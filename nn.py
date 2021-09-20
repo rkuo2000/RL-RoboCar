@@ -2,13 +2,7 @@
 The design of this comes from here:
 http://outlace.com/Reinforcement-Learning-Part-3/
 """
-
-from keras.models import Sequential
-from keras.layers.core import Dense, Activation, Dropout
-from keras.optimizers import RMSprop
-from keras.layers.recurrent import LSTM
-from keras.callbacks import Callback
-
+from tensorflow.keras import models, layers, optimizers, callbacks
 
 class LossHistory(Callback):
     def on_train_begin(self, logs={}):
@@ -19,26 +13,21 @@ class LossHistory(Callback):
 
 
 def neural_net(num_sensors, params, load=''):
-    model = Sequential()
-
+    # Build Model    
+    model = models.Sequential()
     # First layer.
-    model.add(Dense(
-        params[0], init='lecun_uniform', input_shape=(num_sensors,)
-    ))
-    model.add(Activation('relu'))
-    model.add(Dropout(0.2))
-
+    model.add(layers.Dense(params[0], activation='relu', input_shape=(num_sensors,)))
+    model.add(layers.Dropout(0.2))
     # Second layer.
-    model.add(Dense(params[1], init='lecun_uniform'))
-    model.add(Activation('relu'))
-    model.add(Dropout(0.2))
-
+    model.add(layers.Dense(params[1], activation='relu'))
+    model.add(layers.Dropout(0.2))
     # Output layer.
-    model.add(Dense(3, init='lecun_uniform'))
-    model.add(Activation('linear'))
+    model.add(layers.Dense(3, activation='linear'))
 
-    rms = RMSprop()
-    model.compile(loss='mse', optimizer=rms)
+    model.summary()
+    
+    # Compile Model
+    model.compile(loss='mse', optimizer='RMSprop')
 
     if load:
         model.load_weights(load)
