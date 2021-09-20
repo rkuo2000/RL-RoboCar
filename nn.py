@@ -2,9 +2,9 @@
 The design of this comes from here:
 http://outlace.com/Reinforcement-Learning-Part-3/
 """
-from tensorflow.keras import models, layers, optimizers, callbacks
+from tensorflow.keras import models, layers, optimizers
 
-class LossHistory(Callback):
+class LossHistory():
     def on_train_begin(self, logs={}):
         self.losses = []
 
