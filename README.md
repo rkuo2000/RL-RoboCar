@@ -4,10 +4,15 @@ RoboCar Simulation for Reinforcement Learning
 [![Watch the video](https://user-images.githubusercontent.com/3485732/133130003-41493420-95e6-4f60-9b56-13fd6213898a.png)](https://youtu.be/H37TVKBNc5s)
 
 ## Install Pygame & Pymunk
-
 `pip3 install pygame` (v2.0.1)
-
 `pip3 install pymunk` (v6.0.0)
+
+## Repro Github
+`git clone https://github.com/rkuo2000/RL-RoboCar`
+`%cd RL-RoboCar
+
+## test carmunk
+`python3 flat_game/carmunk.py`
 
 ## Training
 `python3 learning.py`
