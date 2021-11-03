@@ -1,6 +1,5 @@
 #$pip install pygame (2.0.1)
 #$pip install pymunk (6.0.0)
-#$pip install scikit-video (1.1.11)
 import random
 import math
 import numpy as np
